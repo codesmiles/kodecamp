@@ -19,7 +19,7 @@ article {
   justify-content: space-evenly;
 }
 article .image {
-  background: url("/image/pexels-andres-ayrton-6578392 2.svg");
+  background: url("\image\pexels-andres-ayrton-6578392 2.svg");
   background-repeat: no-repeat;
   background-size: 95%;
   background-position: center;
