@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  max-width: 100%;
+  background-color: #E5E5E5;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+h3 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+article {
+  display: flex;
+  justify-content: space-evenly;
+}
+article .image {
+  background: url("/image/pexels-andres-ayrton-6578392 2.svg");
+  background-repeat: no-repeat;
+  background-size: 95%;
+  background-position: center;
+}
+article .image img {
+  display: none;
+}
+article section {
+  width: 50%;
+}
+article section h3 {
+  font-weight: normal;
+  font-size: 30px;
+}
+
+form {
+  margin: 2em auto;
+  width: 80%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: grid;
+  justify-content: center;
+  grid-row-gap: 0.5em;
+  position: relative;
+}
+form h1 {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 59px;
+  background: #FFFFFF;
+}
+form div,
+form label,
+form input,
+form textarea {
+  background: #FFFFFF;
+}
+form input,
+form textarea {
+  border: 1px solid #0D0C0C;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+}
+form button {
+  background: rgba(0, 77, 230, 0.76);
+  border-radius: 8px;
+  margin: 1em 0 2em 70%;
+  border: none;
+  color: #FFFFFF;
+  padding: 0.4em 3em;
+  text-align: center;
+  width: 10em;
+}
+
+@media screen and (max-width: 800px) {
+  form {
+    display: block;
+    width: 90%;
+  }
+  form button {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  article {
+    display: block;
+    width: 100%;
+  }
+  article .image {
+    background: none;
+  }
+  article .image img {
+    display: block;
+  }
+  article section {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
